@@ -1,0 +1,24 @@
+<style>
+    #dm_body {
+        display: none;
+    }
+</style>
+
+<body>
+    <div id="dm_body" class="container">
+        <div class="messages">
+            <ul id="message-list"></ul>
+        </div>
+        <form id="message-form" action="/code/dm/dm.php" method="post">
+            <label for="recipient">Your Recipient :</label>
+            <input type="text" id="recipient" name="recipient" placeholder="Recipient's name..." required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+
+            <button id="send" type="submit">Send</button>
+        </form>
+        <button id="dm_close">Close</button>
+    </div>
+    <script src="/code/dm/dm.js"></script>
+</body>

@@ -1,0 +1,24 @@
+<style>
+    #login_body {
+        display: none;
+    }
+</style>
+
+<body>
+    <div id="login_body">
+        <div id="login_content">
+            <h2>Login</h2>
+            <form id="login_form">
+                <label for="login_email">Email</label>
+                <input type="email" id="login_email" name="email" required autocomplete="email">
+
+                <label for="login_password">Password</label>
+                <input type="password" id="login_password" name="password" required autocomplete="current-password">
+
+                <button type="submit">Login</button>
+                <button type="button" id="login_close">Cancel</button>
+            </form>
+        </div>
+    </div>
+    <script src="/code/view/javascript/login.js"></script>
+</body>

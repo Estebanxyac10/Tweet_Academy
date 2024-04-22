@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <link rel="stylesheet" href="/code/css/style.css" type="text/css">
+    <link rel="icon" href="asset/img/png/logo_250.png" type="image/png">
+    <script src="https://code.iconify.design/iconify-icon/2.0.0/iconify-icon.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="/code/view/javascript/account.js"></script>
+    <script src="/code/view/javascript/follow.js"></script>
+</head>
+
+<body>
+    <div id="account_display">
+        <div>
+            <button id="account_back"><iconify-icon icon="mdi:arrow-left-top"></iconify-icon></button>
+            <div class="account-infos">
+                <div class="account-name"></div>
+                <div id="account_amount"></div>
+            </div>
+        </div>
+        <div id="account_banner"></div>
+        <div>
+            <div class="account-infos">
+                <div id="account_pfp"></div>
+                <div class="account-name"></div>
+                <div id="account_at"></div>
+                <div id="account_bio"></div>
+                <div id="account_date"></div>
+                <div id="account_follow_infos">
+                    <button id="toggleFollowersBtn">Followers</button>
+                    <div id="followersList"></div>
+                    <button id="toggleFollowingBtn">Followed</button>
+                    <div id="followingList"></div>
+                </div>
+            </div>
+            <button id="account_edit">Edit profile</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

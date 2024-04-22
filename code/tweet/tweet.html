@@ -1,0 +1,24 @@
+<style>
+    #tweet_body {
+        display: none;
+    }
+</style>
+
+<body>
+    <div id="tweet_body">
+        <div id="tweet_content">
+            <form id="tweet_form" enctype="multipart/form-data">
+                <h2>New tweet</h2>
+                <input type="text" id="tweet_message" name="tweet_message" placeholder="What's happening?"
+                    maxlength="140" required>
+                <input type="file" id="tweet_media" name="tweet_media" accept="image/*,video/*">
+                <div id="media_preview"></div>
+                <div>
+                    <button type="submit">Tweet</button>
+                    <button type="button" id="tweet_close">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/code/tweet/tweet.js"></script>
+</body>

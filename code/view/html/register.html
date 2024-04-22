@@ -1,0 +1,47 @@
+<style>
+    #register_body {
+        display: none;
+    }
+</style>
+
+<body>
+    <div id="register_body">
+        <div id="register_content">
+            <h2>Register</h2>
+            <form id="register_form">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required autocomplete="username">
+
+                <label for="lastname">Lastname</label>
+                <input type="text" id="lastname" name="lastname" required autocomplete="family-name">
+
+                <label for="firstname">Firstname</label>
+                <input type="text" id="firstname" name="firstname" required autocomplete="given-name">
+
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender" autocomplete="sex">
+                    <option value="man">Men</option>
+                    <option value="woman">Woman</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="birthdate">Birthdate</label>
+                <input type="date" id="birthdate" name="birthdate" required autocomplete="bday">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required autocomplete="email">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required autocomplete="new-password">
+
+                <label for="confirm_password">Confirm password</label>
+                <input type="password" id="confirm_password" name="confirm_password" required
+                    autocomplete="new-password">
+
+                <button type="submit">Register</button>
+                <button type="button" id="register_close">Close</button>
+            </form>
+        </div>
+    </div>
+    <script src="/code/view/javascript/register.js"></script>
+</body>

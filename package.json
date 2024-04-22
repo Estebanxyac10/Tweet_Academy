@@ -1,0 +1,25 @@
+{
+  "name": "w-web-090-lil-1-1-academie-amelie.lemaire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpitechWebAcademiePromo2025/W-WEB-090-LIL-1-1-academie-amelie.lemaire.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EpitechWebAcademiePromo2025/W-WEB-090-LIL-1-1-academie-amelie.lemaire/issues"
+  },
+  "homepage": "https://github.com/EpitechWebAcademiePromo2025/W-WEB-090-LIL-1-1-academie-amelie.lemaire#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0"
+  }
+}
